@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: linear-gradient(#87ceeb, blue);
+  overflow: hidden; }
+
+.clouds {
+  max-width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  overflow: hidden; }
+
+.clouds .cloud {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://media.discordapp.net/attachments/708322953649193040/709058890733584484/p-trans.png");
+  background-size: 200px 150px;
+  background-repeat: no-repeat; }
+
+.clouds .cloud.cloud1 {
+  animation: animate 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s; }
+
+.clouds .cloud.cloud2 {
+  animation: animate2 17s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  top: 10px;
+  background-position-x: -200px;
+  animation-delay: 5s; }
+
+.clouds .cloud.cloud3 {
+  animation: animate3 30s linear infinite;
+  z-index: 998;
+  opacity: 0.7;
+  top: 5px;
+  background-position-x: 1500px;
+  animation-delay: 1s; }
+
+.clouds .cloud.cloud4 {
+  animation: animate4 16s linear infinite;
+  z-index: 997;
+  opacity: 0.4;
+  top: 30px;
+  background-position-x: 1300px;
+  animation-delay: .5s; }
+
+@keyframes animate {
+  0% {
+    background-position-x: -200px; }
+  100% {
+    background-position-x: 1500px; } }
+
+@keyframes animate2 {
+  0% {
+    background-position-x: -200px; }
+  100% {
+    background-position-x: 1500px; } }
+
+@keyframes animate3 {
+  0% {
+    background-position-x: 1500px; }
+  100% {
+    background-position-x: -200px; } }
+
+@keyframes animate4 {
+  0% {
+    background-position-x: 1300px; }
+  100% {
+    background-position-x: -200px; } }
+
+@keyframes float {
+  from {
+    top: 50%; }
+  to {
+    top: 55%; } }
+
+/* ________________________________ */
+figure {
+  margin-top: 3em;
+  width: 15em; }
+
+.scenery {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(green, yellow); }
+
+.animate__animated {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: pulse;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */ }
+
+.animated__text {
+  display: flex;
+  flex-direction: column;
+  z-index: 5; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  padding: 2em;
+  color: white; }
+
+#clockdiv {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  height: 5em;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px; }
+
+#clockdiv > div {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  background: #00BF96;
+  display: inline-block;
+  width: 5em; }
+
+#clockdiv div > span {
+  padding: 15px;
+  margin: 5px;
+  border-radius: 3px;
+  background: #00816A;
+  display: inline-block; }
+
+/* ____________________________________________________________ */
+@media screen and (max-width: 500px) {
+  .scenery {
+    display: flex;
+    flex-direction: column;
+    width: 100vw; }
+  #clockdiv {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 2.5em;
+    min-height: 250px;
+    margin-bottom: 30px; }
+  #clockdiv > div {
+    border-radius: 3px;
+    background: #00BF96;
+    display: flex;
+    height: 1.2em;
+    width: 70%; }
+  #clockdiv div > span {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 3px;
+    width: 110px;
+    background: #00816A;
+    display: inline-block; }
+  .smalltext {
+    padding-left: 20px; }
+  .demo {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 30px; }
+  h1 {
+    padding: 0; } }

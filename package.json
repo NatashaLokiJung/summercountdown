@@ -1,0 +1,39 @@
+{
+  "name": "summercountdown",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^4.1.0"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-build": "^0.5.3",
+    "gulp-connect": "^5.7.0",
+    "gulp-ejs": "^5.1.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "imagemin": "^7.0.1",
+    "node-js": "^1.0.0",
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatashaLokiJung/summercountdown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatashaLokiJung/summercountdown/issues"
+  },
+  "homepage": "https://github.com/NatashaLokiJung/summercountdown#readme",
+  "description": ""
+}
