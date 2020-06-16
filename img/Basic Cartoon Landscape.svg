@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3000" height="180" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Basic Cartoon Landscape</title>
+ <defs>
+  <linearGradient id="linearGradient4238">
+   <stop stop-color="#55a800" id="stop4240" offset="0"/>
+   <stop stop-color="#74e400" id="stop4242" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4103">
+   <stop stop-color="#00acf4" id="stop4105" offset="0"/>
+   <stop stop-color="#a6e5ff" id="stop4107" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="1.0001" x2="0.47421" y1="-0.18942" x1="0.47421" id="linearGradient4109" xlink:href="#linearGradient4103"/>
+  <clipPath id="clipPath4234" clipPathUnits="userSpaceOnUse">
+   <path fill="#9cf000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="path4236" d="m-701.794983,85.707802c-11.655029,0 -21.062012,5.752098 -21.062012,12.875l0,830.031212c73.680969,-9.907043 153.85199,-15.062012 237.156006,-15.062012c343.816986,0 484.305789,44.117004 822.843994,235.718018c342.856995,194.049927 775.267029,461.419922 -891.406006,464.280029c-60.10498,0.099976 -116.484009,-9.400024 -168.593994,-25.940063l0,150.969971c0,7.130005 9.406982,12.850098 21.062012,12.850098l2229.345032,0c11.649902,0 21.029907,-5.720093 21.029907,-12.850098l0,-640l0,-67.399902l0,-932.597252c0,-7.122902 -9.380005,-12.875 -21.029907,-12.875l-2229.345032,0l0,0z"/>
+  </clipPath>
+  <clipPath id="clipPath4253" clipPathUnits="userSpaceOnUse">
+   <path fill="url(#linearGradient4257)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="path4255" d="m272.491058,62.850651c-11.655579,0 -21.0625,5.752132 -21.0625,12.874989l0,830.031258l0,169.968689l0,640c0,7.122925 9.406952,12.843994 21.0625,12.84375l2229.343903,0c11.655273,0 21.031006,-5.720947 21.031006,-12.84375l0,-640l0,-67.40625l0,-932.593697c0,-7.122856 -9.375732,-12.874989 -21.031006,-12.874989l-2229.343903,0z"/>
+  </clipPath>
+  <linearGradient y2="0.61584" x2="0.47422" y1="-0.11664" x1="0.47422" id="linearGradient4257" xlink:href="#linearGradient4103"/>
+  <linearGradient y2="1.4259" x2="0.51067" y1="-0.07013" x1="0.5" id="linearGradient4263" xlink:href="#linearGradient4238"/>
+  <clipPath id="clipPath5381" clipPathUnits="userSpaceOnUse">
+   <path opacity="0.89333" fill="#fdfdfd" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="path5383" d="m798.213013,156.399796c-48.512512,0 -90.277039,11.929932 -108.884583,29.029007c-4.26886,-0.294815 -8.609497,-0.457596 -13.019836,-0.457565c-57.891602,0 -104.884521,26.515869 -104.884521,59.185257c0,28.591492 35.995605,52.464539 83.786011,57.979858c14.848328,30.919434 81.280579,54.263428 160.924805,54.263458c90.548401,0 164.042603,-30.168274 164.042603,-67.343781l-0.117676,-1.082581c29.333679,-9.232056 48.520508,-24.501526 48.520508,-41.774582l-0.421509,-4.386139c-5.100586,-26.509354 -53.967407,-46.620636 -113.325806,-46.64064c-11.480103,-22.433395 -59.405518,-38.772324 -116.619995,-38.772293z"/>
+  </clipPath>
+  <clipPath id="clipPath5495" clipPathUnits="userSpaceOnUse">
+   <path opacity="0.89333" fill="#fdfdfd" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" d="m1832.5,64.971199c-48.51001,0 -90.280029,11.93 -108.890015,29.028999c-4.26001,-0.2948 -8.609985,-0.457596 -13.02002,-0.457497c-57.890015,0 -104.880005,26.516296 -104.880005,59.185295c0,28.591003 36,52.464005 83.790039,57.979996c14.839966,30.919006 81.280029,54.263016 160.920044,54.263016c90.549927,0 164.039917,-30.168015 164.039917,-67.344009l-0.109985,-1.082001c29.330078,-9.231995 48.520142,-24.501999 48.520142,-41.774994l-0.430176,-4.386002c-5.099854,-26.509003 -53.959961,-46.620003 -113.319946,-46.639999c-11.47998,-22.433907 -59.410034,-38.772804 -116.619995,-38.772804l0,0z" id="path5497"/>
+  </clipPath>
+  <clipPath id="clipPath5671" clipPathUnits="userSpaceOnUse">
+   <rect fill="url(#linearGradient5675)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" ry="21.59733" rx="35.34109" y="-42.65996" x="-59.71918" height="1722.9872" width="3815.5286" id="rect5673"/>
+  </clipPath>
+  <linearGradient y2="1.0001" x2="0.47421" y1="-0.18942" x1="0.47421" id="linearGradient5675" xlink:href="#linearGradient4103"/>
+  <clipPath id="clipPath5677" clipPathUnits="userSpaceOnUse">
+   <rect fill="url(#linearGradient5681)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="rect5679" width="3599.5803" height="1625.4709" x="-51.16412" y="-30.42346" rx="33.34088" ry="20.37498"/>
+  </clipPath>
+  <linearGradient y2="1.0001" x2="0.47421" y1="-0.18942" x1="0.47421" id="linearGradient5681" xlink:href="#linearGradient4103"/>
+ </defs>
+ <metadata id="metadata7">image/svg+xmlSummer LandscapeCarlos AsmatsummergreenlandscapetreecloudsA simple summer landscape featuring green grass, a blue sky and white clouds.</metadata>
+ <g>
+  <rect fill="url(#linearGradient4109)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" ry="12.85714" rx="21.03896" y="-3.999976" x="-46.741941" height="1186.411067" width="3043.714111" id="rect2160"/>
+  <path fill="url(#linearGradient4263)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="path4202" d="m1576.417358,570.795898c-288.306152,0 -508.109497,24.249512 -678.225525,61.193481c-187.168518,-34.649414 -344.196899,-92.20697 -609.314209,-92.20697c-111.613968,0 -245.830559,13.093872 -335.619564,57.881226l0,573.623108c0,5.042358 12.603912,9.093262 28.220753,9.093262l2987.00898,0c15.608887,0 28.177002,-4.050903 28.177002,-9.093262l17.859863,-564.726685c-229.222168,-39.472961 -465.612793,49.460693 -686.62207,68.496399c-221.009521,19.034973 -407.356567,-104.260559 -751.485229,-104.260559z"/>
+  <title>Layer 1</title>
+ </g>
+</svg>
