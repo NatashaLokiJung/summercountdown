@@ -6,7 +6,7 @@
     "animate.css": "^4.1.0"
   },
   "devDependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gulp": "^4.0.2",
     "gulp-build": "^0.5.3",
     "gulp-connect": "^5.7.0",
